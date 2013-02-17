@@ -120,13 +120,14 @@
 {
     PayPal *ppMEP = [PayPal getPayPalInst];
     ppMEP.lang = @"de_DE";
+    ppMEP.shippingEnabled = NO;
     
     PayPalPayment *payment = [[PayPalPayment alloc]init];
     payment.paymentCurrency = @"EUR";
     payment.paymentType = TYPE_GOODS;
     payment.paymentSubType = SUBTYPE_DONATIONS;
     payment.subTotal = [NSDecimalNumber decimalNumberWithString:@"1.00"];
-    payment.recipient =@"seller_1360925097_biz@kuenz.co.at";
+    payment.recipient =@"martin@kuenz.co.at";
     payment.merchantName =@"Notruf APP";
     
     [ppMEP checkoutWithPayment:payment];
