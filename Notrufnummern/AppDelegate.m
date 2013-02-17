@@ -8,12 +8,25 @@
 
 #import "AppDelegate.h"
 
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self customizeApperance];
     // Override point for customization after application launch.
     return YES;
+}
+
+-(void)customizeApperance
+{
+   // UIImage *leatherBackground = [UIImage imageNamed:@"main_headline.png"];
+   // [[UINavigationBar appearance] setBackgroundImage:leatherBackground forBarMetrics:UIBarMetricsDefault];
+}
+
+-(void)roundCorner
+{
+    
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

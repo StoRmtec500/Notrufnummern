@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B856D87016D1691F001354DA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B856D86F16D1691F001354DA /* MessageUI.framework */; };
+		B866478A168A6E8F00AE5DC4 /* main_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8664789168A6E8F00AE5DC4 /* main_icon.png */; };
+		B866478C168A6F2300AE5DC4 /* main_icon_ret.png in Resources */ = {isa = PBXBuildFile; fileRef = B866478B168A6F2300AE5DC4 /* main_icon_ret.png */; };
 		B86CC71F168A21FB00949269 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86CC71E168A21FB00949269 /* UIKit.framework */; };
 		B86CC721168A21FB00949269 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86CC720168A21FB00949269 /* Foundation.framework */; };
 		B86CC723168A21FB00949269 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86CC722168A21FB00949269 /* CoreGraphics.framework */; };
@@ -18,10 +21,32 @@
 		B86CC735168A21FB00949269 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B86CC734168A21FB00949269 /* Default-568h@2x.png */; };
 		B86CC738168A21FB00949269 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86CC736168A21FB00949269 /* MainStoryboard.storyboard */; };
 		B86CC73B168A21FB00949269 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B86CC73A168A21FB00949269 /* ViewController.m */; };
+		B86CC744168A25C700949269 /* polizei_logo_groß.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86CC742168A25C700949269 /* polizei_logo_groß.jpg */; };
+		B86CC745168A25C700949269 /* polizei_lokal.png in Resources */ = {isa = PBXBuildFile; fileRef = B86CC743168A25C700949269 /* polizei_lokal.png */; };
+		B8835B0016D152F000630F39 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8835AFF16D152F000630F39 /* background@2x.png */; };
+		B8A28C32168B8A2200AD80E3 /* main_headline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A28C31168B8A2200AD80E3 /* main_headline@2x.png */; };
+		B8A28C34168B8A6F00AD80E3 /* main_headline.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A28C33168B8A6F00AD80E3 /* main_headline.png */; };
+		B8A28C36168B8FBF00AD80E3 /* hintergrund.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A28C35168B8FBF00AD80E3 /* hintergrund.png */; };
+		B8A28C38168B991100AD80E3 /* btn_polizei.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A28C37168B991100AD80E3 /* btn_polizei.png */; };
+		B8A28C3A168BA3ED00AD80E3 /* btn_feuerwehr.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A28C39168BA3ED00AD80E3 /* btn_feuerwehr.png */; };
+		B8DD95CF16CED69C0078A6FC /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DD95CE16CED69C0078A6FC /* InfoViewController.m */; };
+		B8DD95DD16CEDB400078A6FC /* libPayPalMPL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DD95D216CEDB400078A6FC /* libPayPalMPL.a */; };
+		B8DD95DF16CEDBD00078A6FC /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DD95DE16CEDBD00078A6FC /* libxml2.dylib */; };
+		B8DD95E116CEDBD80078A6FC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DD95E016CEDBD80078A6FC /* Security.framework */; };
+		B8DD95E316CEDBEB0078A6FC /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DD95E216CEDBEB0078A6FC /* libz.1.dylib */; };
+		B8E563E0168CBBF200BBE9E7 /* btn_rettung.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E563DF168CBBF200BBE9E7 /* btn_rettung.png */; };
+		B8E563E2168CBCB700BBE9E7 /* btn_rettung@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E563E1168CBCB700BBE9E7 /* btn_rettung@2x.png */; };
+		B8E563E4168CBD0200BBE9E7 /* btn_feuerwehr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E563E3168CBD0200BBE9E7 /* btn_feuerwehr@2x.png */; };
+		B8E563E6168CBD2500BBE9E7 /* btn_polizei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E563E5168CBD2500BBE9E7 /* btn_polizei@2x.png */; };
+		B8E563E8168CBD4B00BBE9E7 /* hintergrund@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E563E7168CBD4B00BBE9E7 /* hintergrund@2x.png */; };
+		B8EC39A0168B229800726ED8 /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8EC399F168B229800726ED8 /* navbar@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B86CC71A168A21FB00949269 /* Notrufnummern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notrufnummern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B856D86F16D1691F001354DA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B8664789168A6E8F00AE5DC4 /* main_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_icon.png; sourceTree = "<group>"; };
+		B866478B168A6F2300AE5DC4 /* main_icon_ret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_icon_ret.png; sourceTree = "<group>"; };
+		B86CC71A168A21FB00949269 /* Notruf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notruf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86CC71E168A21FB00949269 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B86CC720168A21FB00949269 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B86CC722168A21FB00949269 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -36,7 +61,37 @@
 		B86CC734168A21FB00949269 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B86CC737168A21FB00949269 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B86CC739168A21FB00949269 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B86CC73A168A21FB00949269 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B86CC73A168A21FB00949269 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B86CC742168A25C700949269 /* polizei_logo_groß.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "polizei_logo_groß.jpg"; sourceTree = "<group>"; };
+		B86CC743168A25C700949269 /* polizei_lokal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = polizei_lokal.png; sourceTree = "<group>"; };
+		B8835AFF16D152F000630F39 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		B8A28C31168B8A2200AD80E3 /* main_headline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_headline@2x.png"; sourceTree = "<group>"; };
+		B8A28C33168B8A6F00AD80E3 /* main_headline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_headline.png; sourceTree = "<group>"; };
+		B8A28C35168B8FBF00AD80E3 /* hintergrund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hintergrund.png; sourceTree = "<group>"; };
+		B8A28C37168B991100AD80E3 /* btn_polizei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_polizei.png; sourceTree = "<group>"; };
+		B8A28C39168BA3ED00AD80E3 /* btn_feuerwehr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_feuerwehr.png; sourceTree = "<group>"; };
+		B8DD95CD16CED69C0078A6FC /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		B8DD95CE16CED69C0078A6FC /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		B8DD95D216CEDB400078A6FC /* libPayPalMPL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMPL.a; sourceTree = "<group>"; };
+		B8DD95D316CEDB400078A6FC /* PayPal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPal.h; sourceTree = "<group>"; };
+		B8DD95D416CEDB400078A6FC /* PayPalAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAddress.h; sourceTree = "<group>"; };
+		B8DD95D516CEDB400078A6FC /* PayPalAdvancedPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAdvancedPayment.h; sourceTree = "<group>"; };
+		B8DD95D616CEDB400078A6FC /* PayPalAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAmounts.h; sourceTree = "<group>"; };
+		B8DD95D716CEDB400078A6FC /* PayPalInvoiceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalInvoiceData.h; sourceTree = "<group>"; };
+		B8DD95D816CEDB400078A6FC /* PayPalInvoiceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalInvoiceItem.h; sourceTree = "<group>"; };
+		B8DD95D916CEDB400078A6FC /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPayment.h; sourceTree = "<group>"; };
+		B8DD95DA16CEDB400078A6FC /* PayPalPreapprovalDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPreapprovalDetails.h; sourceTree = "<group>"; };
+		B8DD95DB16CEDB400078A6FC /* PayPalReceiverAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverAmounts.h; sourceTree = "<group>"; };
+		B8DD95DC16CEDB400078A6FC /* PayPalReceiverPaymentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverPaymentDetails.h; sourceTree = "<group>"; };
+		B8DD95DE16CEDBD00078A6FC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		B8DD95E016CEDBD80078A6FC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B8DD95E216CEDBEB0078A6FC /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = usr/lib/libz.1.dylib; sourceTree = SDKROOT; };
+		B8E563DF168CBBF200BBE9E7 /* btn_rettung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_rettung.png; sourceTree = "<group>"; };
+		B8E563E1168CBCB700BBE9E7 /* btn_rettung@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_rettung@2x.png"; sourceTree = "<group>"; };
+		B8E563E3168CBD0200BBE9E7 /* btn_feuerwehr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_feuerwehr@2x.png"; sourceTree = "<group>"; };
+		B8E563E5168CBD2500BBE9E7 /* btn_polizei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_polizei@2x.png"; sourceTree = "<group>"; };
+		B8E563E7168CBD4B00BBE9E7 /* hintergrund@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hintergrund@2x.png"; sourceTree = "<group>"; };
+		B8EC399F168B229800726ED8 /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +99,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B856D87016D1691F001354DA /* MessageUI.framework in Frameworks */,
+				B8DD95E316CEDBEB0078A6FC /* libz.1.dylib in Frameworks */,
+				B8DD95E116CEDBD80078A6FC /* Security.framework in Frameworks */,
+				B8DD95DF16CEDBD00078A6FC /* libxml2.dylib in Frameworks */,
 				B86CC71F168A21FB00949269 /* UIKit.framework in Frameworks */,
 				B86CC721168A21FB00949269 /* Foundation.framework in Frameworks */,
 				B86CC723168A21FB00949269 /* CoreGraphics.framework in Frameworks */,
+				B8DD95DD16CEDB400078A6FC /* libPayPalMPL.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +116,8 @@
 		B86CC70F168A21FA00949269 = {
 			isa = PBXGroup;
 			children = (
+				B866478B168A6F2300AE5DC4 /* main_icon_ret.png */,
+				B8664789168A6E8F00AE5DC4 /* main_icon.png */,
 				B86CC724168A21FB00949269 /* Notrufnummern */,
 				B86CC71D168A21FB00949269 /* Frameworks */,
 				B86CC71B168A21FB00949269 /* Products */,
@@ -65,7 +127,7 @@
 		B86CC71B168A21FB00949269 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B86CC71A168A21FB00949269 /* Notrufnummern.app */,
+				B86CC71A168A21FB00949269 /* Notruf.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +135,7 @@
 		B86CC71D168A21FB00949269 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B856D86F16D1691F001354DA /* MessageUI.framework */,
 				B86CC71E168A21FB00949269 /* UIKit.framework */,
 				B86CC720168A21FB00949269 /* Foundation.framework */,
 				B86CC722168A21FB00949269 /* CoreGraphics.framework */,
@@ -83,12 +146,16 @@
 		B86CC724168A21FB00949269 /* Notrufnummern */ = {
 			isa = PBXGroup;
 			children = (
+				B8DD95D116CEDB260078A6FC /* PayPal */,
+				B86CC741168A25C700949269 /* Resources */,
 				B86CC72D168A21FB00949269 /* AppDelegate.h */,
 				B86CC72E168A21FB00949269 /* AppDelegate.m */,
 				B86CC736168A21FB00949269 /* MainStoryboard.storyboard */,
 				B86CC739168A21FB00949269 /* ViewController.h */,
 				B86CC73A168A21FB00949269 /* ViewController.m */,
 				B86CC725168A21FB00949269 /* Supporting Files */,
+				B8DD95CD16CED69C0078A6FC /* InfoViewController.h */,
+				B8DD95CE16CED69C0078A6FC /* InfoViewController.m */,
 			);
 			path = Notrufnummern;
 			sourceTree = "<group>";
@@ -105,6 +172,48 @@
 				B86CC734168A21FB00949269 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B86CC741168A25C700949269 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B8835AFF16D152F000630F39 /* background@2x.png */,
+				B8E563E7168CBD4B00BBE9E7 /* hintergrund@2x.png */,
+				B8E563E5168CBD2500BBE9E7 /* btn_polizei@2x.png */,
+				B8E563E3168CBD0200BBE9E7 /* btn_feuerwehr@2x.png */,
+				B8E563E1168CBCB700BBE9E7 /* btn_rettung@2x.png */,
+				B8E563DF168CBBF200BBE9E7 /* btn_rettung.png */,
+				B8A28C39168BA3ED00AD80E3 /* btn_feuerwehr.png */,
+				B8A28C37168B991100AD80E3 /* btn_polizei.png */,
+				B8A28C35168B8FBF00AD80E3 /* hintergrund.png */,
+				B8A28C33168B8A6F00AD80E3 /* main_headline.png */,
+				B8A28C31168B8A2200AD80E3 /* main_headline@2x.png */,
+				B8EC399F168B229800726ED8 /* navbar@2x.png */,
+				B86CC742168A25C700949269 /* polizei_logo_groß.jpg */,
+				B86CC743168A25C700949269 /* polizei_lokal.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B8DD95D116CEDB260078A6FC /* PayPal */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD95E216CEDBEB0078A6FC /* libz.1.dylib */,
+				B8DD95E016CEDBD80078A6FC /* Security.framework */,
+				B8DD95DE16CEDBD00078A6FC /* libxml2.dylib */,
+				B8DD95D216CEDB400078A6FC /* libPayPalMPL.a */,
+				B8DD95D316CEDB400078A6FC /* PayPal.h */,
+				B8DD95D416CEDB400078A6FC /* PayPalAddress.h */,
+				B8DD95D516CEDB400078A6FC /* PayPalAdvancedPayment.h */,
+				B8DD95D616CEDB400078A6FC /* PayPalAmounts.h */,
+				B8DD95D716CEDB400078A6FC /* PayPalInvoiceData.h */,
+				B8DD95D816CEDB400078A6FC /* PayPalInvoiceItem.h */,
+				B8DD95D916CEDB400078A6FC /* PayPalPayment.h */,
+				B8DD95DA16CEDB400078A6FC /* PayPalPreapprovalDetails.h */,
+				B8DD95DB16CEDB400078A6FC /* PayPalReceiverAmounts.h */,
+				B8DD95DC16CEDB400078A6FC /* PayPalReceiverPaymentDetails.h */,
+			);
+			name = PayPal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +233,7 @@
 			);
 			name = Notrufnummern;
 			productName = Notrufnummern;
-			productReference = B86CC71A168A21FB00949269 /* Notrufnummern.app */;
+			productReference = B86CC71A168A21FB00949269 /* Notruf.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,6 +272,22 @@
 				B86CC733168A21FB00949269 /* Default@2x.png in Resources */,
 				B86CC735168A21FB00949269 /* Default-568h@2x.png in Resources */,
 				B86CC738168A21FB00949269 /* MainStoryboard.storyboard in Resources */,
+				B86CC744168A25C700949269 /* polizei_logo_groß.jpg in Resources */,
+				B86CC745168A25C700949269 /* polizei_lokal.png in Resources */,
+				B866478A168A6E8F00AE5DC4 /* main_icon.png in Resources */,
+				B866478C168A6F2300AE5DC4 /* main_icon_ret.png in Resources */,
+				B8EC39A0168B229800726ED8 /* navbar@2x.png in Resources */,
+				B8A28C32168B8A2200AD80E3 /* main_headline@2x.png in Resources */,
+				B8A28C34168B8A6F00AD80E3 /* main_headline.png in Resources */,
+				B8A28C36168B8FBF00AD80E3 /* hintergrund.png in Resources */,
+				B8A28C38168B991100AD80E3 /* btn_polizei.png in Resources */,
+				B8A28C3A168BA3ED00AD80E3 /* btn_feuerwehr.png in Resources */,
+				B8E563E0168CBBF200BBE9E7 /* btn_rettung.png in Resources */,
+				B8E563E2168CBCB700BBE9E7 /* btn_rettung@2x.png in Resources */,
+				B8E563E4168CBD0200BBE9E7 /* btn_feuerwehr@2x.png in Resources */,
+				B8E563E6168CBD2500BBE9E7 /* btn_polizei@2x.png in Resources */,
+				B8E563E8168CBD4B00BBE9E7 /* hintergrund@2x.png in Resources */,
+				B8835B0016D152F000630F39 /* background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +301,7 @@
 				B86CC72B168A21FB00949269 /* main.m in Sources */,
 				B86CC72F168A21FB00949269 /* AppDelegate.m in Sources */,
 				B86CC73B168A21FB00949269 /* ViewController.m in Sources */,
+				B8DD95CF16CED69C0078A6FC /* InfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +336,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Martin Kuenz (994AZ7AHKS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Martin Kuenz (994AZ7AHKS)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -225,6 +352,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "4A3D15B9-DD52-4AF1-94A8-F9A7D1B9E641";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4A3D15B9-DD52-4AF1-94A8-F9A7D1B9E641";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -238,7 +367,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Martin Kuenz";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Martin Kuenz";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -246,6 +376,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -254,10 +386,20 @@
 		B86CC73F168A21FB00949269 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Martin Kuenz (994AZ7AHKS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Martin Kuenz (994AZ7AHKS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Notrufnummern/Notrufnummern-Prefix.pch";
 				INFOPLIST_FILE = "Notrufnummern/Notrufnummern-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Notrufnummern\"",
+				);
+				PRODUCT_NAME = Notruf;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -265,10 +407,20 @@
 		B86CC740168A21FB00949269 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Martin Kuenz (994AZ7AHKS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Martin Kuenz (994AZ7AHKS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Notrufnummern/Notrufnummern-Prefix.pch";
 				INFOPLIST_FILE = "Notrufnummern/Notrufnummern-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Notrufnummern\"",
+				);
+				PRODUCT_NAME = Notruf;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -292,6 +444,7 @@
 				B86CC740168A21FB00949269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

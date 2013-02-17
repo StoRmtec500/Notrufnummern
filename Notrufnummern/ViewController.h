@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+
+- (IBAction)buttonPolizei:(id)sender;
+- (IBAction)buttonFeuerwehr:(id)sender;
+- (IBAction)buttonRettung:(id)sender;
 @end
