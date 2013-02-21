@@ -18,7 +18,6 @@
 		B86CC72F168A21FB00949269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B86CC72E168A21FB00949269 /* AppDelegate.m */; };
 		B86CC731168A21FB00949269 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B86CC730168A21FB00949269 /* Default.png */; };
 		B86CC733168A21FB00949269 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B86CC732168A21FB00949269 /* Default@2x.png */; };
-		B86CC735168A21FB00949269 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B86CC734168A21FB00949269 /* Default-568h@2x.png */; };
 		B86CC738168A21FB00949269 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86CC736168A21FB00949269 /* MainStoryboard.storyboard */; };
 		B86CC73B168A21FB00949269 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B86CC73A168A21FB00949269 /* ViewController.m */; };
 		B86CC744168A25C700949269 /* polizei_logo_groß.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86CC742168A25C700949269 /* polizei_logo_groß.jpg */; };
@@ -58,7 +57,6 @@
 		B86CC72E168A21FB00949269 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B86CC730168A21FB00949269 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B86CC732168A21FB00949269 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		B86CC734168A21FB00949269 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B86CC737168A21FB00949269 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B86CC739168A21FB00949269 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B86CC73A168A21FB00949269 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -169,7 +167,6 @@
 				B86CC72C168A21FB00949269 /* Notrufnummern-Prefix.pch */,
 				B86CC730168A21FB00949269 /* Default.png */,
 				B86CC732168A21FB00949269 /* Default@2x.png */,
-				B86CC734168A21FB00949269 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -270,7 +267,6 @@
 				B86CC729168A21FB00949269 /* InfoPlist.strings in Resources */,
 				B86CC731168A21FB00949269 /* Default.png in Resources */,
 				B86CC733168A21FB00949269 /* Default@2x.png in Resources */,
-				B86CC735168A21FB00949269 /* Default-568h@2x.png in Resources */,
 				B86CC738168A21FB00949269 /* MainStoryboard.storyboard in Resources */,
 				B86CC744168A25C700949269 /* polizei_logo_groß.jpg in Resources */,
 				B86CC745168A25C700949269 /* polizei_lokal.png in Resources */,
@@ -352,7 +348,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "4A3D15B9-DD52-4AF1-94A8-F9A7D1B9E641";
+				PROVISIONING_PROFILE = "F042E553-50CD-4450-A5B0-72A949F6AF6B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4A3D15B9-DD52-4AF1-94A8-F9A7D1B9E641";
 				SDKROOT = iphoneos;
 			};
@@ -367,8 +363,9 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Martin Kuenz";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Martin Kuenz";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Martin Kuenz (994AZ7AHKS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Martin Kuenz (994AZ7AHKS)";
+				"CODE_SIGN_RESOURCE_RULES_PATH[sdk=*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -376,8 +373,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "F042E553-50CD-4450-A5B0-72A949F6AF6B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F042E553-50CD-4450-A5B0-72A949F6AF6B";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -396,9 +393,10 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/Notrufnummern\"",
 				);
+				New_Setting = "";
 				PRODUCT_NAME = Notruf;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "F042E553-50CD-4450-A5B0-72A949F6AF6B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F042E553-50CD-4450-A5B0-72A949F6AF6B";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,7 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: Martin Kuenz (994AZ7AHKS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Martin Kuenz (994AZ7AHKS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Martin Kuenz";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Notrufnummern/Notrufnummern-Prefix.pch";
 				INFOPLIST_FILE = "Notrufnummern/Notrufnummern-Info.plist";
@@ -417,8 +415,9 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/Notrufnummern\"",
 				);
+				New_Setting = "";
 				PRODUCT_NAME = Notruf;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "F042E553-50CD-4450-A5B0-72A949F6AF6B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

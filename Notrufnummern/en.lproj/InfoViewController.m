@@ -71,7 +71,7 @@
 
 - (IBAction)appBewerten:(id)sender
 {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms-apps://itunes.apple.com/us/app/notruf-at/id606199905?l=de&ls=1&mt=8"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms-apps://itunes.apple.com/us/app/notruf-at/id605755554?l=de&ls=1&mt=8"]];
 }
 
 - (IBAction)appWeiterempfehlen:(id)sender
@@ -79,7 +79,7 @@
     NSString *emailTitle = @"Notruf-App weiterempfehlen";
     NSString *bodyText =@"<html>";
     bodyText = [bodyText stringByAppendingString:@"<h1>Notruf-App</h1> schau Dir mal die App an. Ist sehr hilfreich. <br><br>Du kannst die App hier downloaden.<br>"];
-    bodyText = [bodyText stringByAppendingString:@"<a href=\"https://itunes.apple.com/us/app/notruf-at/id606199905?l=de&ls=1&mt=8\">Link zum Appstore!</a>"];
+    bodyText = [bodyText stringByAppendingString:@"<a href=\"https://itunes.apple.com/us/app/notruf-at/id605755554?l=de&ls=1&mt=8\">Link zum Appstore!</a>"];
     //NSString *messageBody = @"<h1>Notruf-App</h1> schau Dir mal die App an. Ist sehr hilfreich. <br><br>Du kannst die App hier downloaden.";
     NSArray *toEmpfaenger = [NSArray arrayWithObject:@"martin@kuenz.co.at"];
     

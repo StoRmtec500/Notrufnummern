@@ -23,6 +23,9 @@
 - (IBAction)appBewerten:(id)sender;
 - (IBAction)appWeiterempfehlen:(id)sender;
 - (IBAction)appFeedback:(id)sender;
+- (IBAction)stepper:(UIStepper *)sender;
+@property (strong, nonatomic) IBOutlet UILabel *wert;
+@property (nonatomic) double stepValue;
 
 -(void)payWithPayPal;
 @end
