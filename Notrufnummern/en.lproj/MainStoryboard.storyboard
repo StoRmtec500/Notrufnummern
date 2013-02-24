@@ -292,27 +292,6 @@
         <image name="background@2x.png" width="640" height="872"/>
         <image name="hintergrund.png" width="280" height="80"/>
     </resources>
-    <classes>
-        <class className="InfoViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/InfoViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="appBewerten:"/>
-                <relationship kind="action" name="appFeedback:"/>
-                <relationship kind="action" name="appWeiterempfehlen:"/>
-            </relationships>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="buttonFeuerwehr:"/>
-                <relationship kind="action" name="buttonPolizei:"/>
-                <relationship kind="action" name="buttonRettung:"/>
-                <relationship kind="outlet" name="feuerwehr" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="polizei" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="rettung" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
