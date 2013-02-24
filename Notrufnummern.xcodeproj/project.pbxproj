@@ -18,7 +18,11 @@
 		B86CC72F168A21FB00949269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B86CC72E168A21FB00949269 /* AppDelegate.m */; };
 		B86CC731168A21FB00949269 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B86CC730168A21FB00949269 /* Default.png */; };
 		B86CC733168A21FB00949269 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B86CC732168A21FB00949269 /* Default@2x.png */; };
+<<<<<<< HEAD
 		B86CC738168A21FB00949269 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86CC736168A21FB00949269 /* MainStoryboard.storyboard */; };
+=======
+		B86CC735168A21FB00949269 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B86CC734168A21FB00949269 /* Default-568h@2x.png */; };
+>>>>>>> test
 		B86CC73B168A21FB00949269 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B86CC73A168A21FB00949269 /* ViewController.m */; };
 		B86CC744168A25C700949269 /* polizei_logo_groß.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86CC742168A25C700949269 /* polizei_logo_groß.jpg */; };
 		B86CC745168A25C700949269 /* polizei_lokal.png in Resources */ = {isa = PBXBuildFile; fileRef = B86CC743168A25C700949269 /* polizei_lokal.png */; };
@@ -57,7 +61,11 @@
 		B86CC72E168A21FB00949269 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B86CC730168A21FB00949269 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B86CC732168A21FB00949269 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		B86CC737168A21FB00949269 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+=======
+		B86CC734168A21FB00949269 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+>>>>>>> test
 		B86CC739168A21FB00949269 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B86CC73A168A21FB00949269 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		B86CC742168A25C700949269 /* polizei_logo_groß.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "polizei_logo_groß.jpg"; sourceTree = "<group>"; };
@@ -148,7 +156,6 @@
 				B86CC741168A25C700949269 /* Resources */,
 				B86CC72D168A21FB00949269 /* AppDelegate.h */,
 				B86CC72E168A21FB00949269 /* AppDelegate.m */,
-				B86CC736168A21FB00949269 /* MainStoryboard.storyboard */,
 				B86CC739168A21FB00949269 /* ViewController.h */,
 				B86CC73A168A21FB00949269 /* ViewController.m */,
 				B86CC725168A21FB00949269 /* Supporting Files */,
@@ -267,7 +274,11 @@
 				B86CC729168A21FB00949269 /* InfoPlist.strings in Resources */,
 				B86CC731168A21FB00949269 /* Default.png in Resources */,
 				B86CC733168A21FB00949269 /* Default@2x.png in Resources */,
+<<<<<<< HEAD
 				B86CC738168A21FB00949269 /* MainStoryboard.storyboard in Resources */,
+=======
+				B86CC735168A21FB00949269 /* Default-568h@2x.png in Resources */,
+>>>>>>> test
 				B86CC744168A25C700949269 /* polizei_logo_groß.jpg in Resources */,
 				B86CC745168A25C700949269 /* polizei_lokal.png in Resources */,
 				B866478A168A6E8F00AE5DC4 /* main_icon.png in Resources */,
@@ -310,14 +321,6 @@
 				B86CC728168A21FB00949269 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B86CC736168A21FB00949269 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B86CC737168A21FB00949269 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
