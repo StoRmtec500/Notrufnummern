@@ -221,52 +221,69 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mn3-TU-h2C">
-                                <rect key="frame" x="34" y="168" width="240" height="79"/>
+                                <rect key="frame" x="40" y="168" width="240" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Um die Arbeit zu unterstützen, und meine Motivation für neue App´s noch mehr zu steigern, kannst du mich natürlich unterstützen.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" maximumValue="100" stepValue="0.10000000000000001" id="rYv-8a-5jJ">
-                                <rect key="frame" x="163" y="294" width="94" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Obe-OJ-NrR">
+                                <rect key="frame" x="111" y="317" width="98" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="btn_donate_LG.gif">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
-                                    <action selector="stepper:" destination="LWM-G2-z8u" eventType="valueChanged" id="5t3-R7-WJe"/>
+                                    <segue destination="gGU-Bj-h5o" kind="push" id="40x-vU-BLO"/>
                                 </connections>
-                            </stepper>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bau-qt-iNs">
-                                <rect key="frame" x="93" y="297" width="40" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="€" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sig-7t-F6J">
-                                <rect key="frame" x="129" y="297" width="20" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Betrag:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pDB-O8-Ycf">
-                                <rect key="frame" x="34" y="297" width="51" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Info" id="AOA-ZW-074"/>
-                    <connections>
-                        <outlet property="wert" destination="bau-qt-iNs" id="Txs-L0-Sba"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jCZ-Kh-vuD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1617" y="-228"/>
+        </scene>
+        <!--Spenden View Controller-->
+        <scene sceneID="igM-qW-VtT">
+            <objects>
+                <viewController id="gGU-Bj-h5o" customClass="SpendenViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xZu-Rk-ApZ">
+                        <rect key="frame" x="0.0" y="64" width="480" height="256"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="1J8-pG-qZr">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="256"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="whiteLarge" id="iNL-hu-R41">
+                                <rect key="frame" x="222" y="109" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" red="0.85636039399999997" green="0.15129123450000001" blue="0.080275022759999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q8x-6s-OBX"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="progress" destination="iNL-hu-R41" id="q5x-gp-h8w"/>
+                        <outlet property="viewWeb" destination="1J8-pG-qZr" id="0Tr-CP-rwE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6im-wf-P0r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2004" y="-228"/>
         </scene>
         <!--Navigation Controller - Anweisung-->
         <scene sceneID="suO-ic-hfw">
@@ -290,31 +307,9 @@
     </scenes>
     <resources>
         <image name="background@2x.png" width="640" height="872"/>
+        <image name="btn_donate_LG.gif" width="98" height="26"/>
         <image name="hintergrund.png" width="280" height="80"/>
     </resources>
-    <classes>
-        <class className="InfoViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/InfoViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="appBewerten:"/>
-                <relationship kind="action" name="appFeedback:"/>
-                <relationship kind="action" name="appWeiterempfehlen:"/>
-                <relationship kind="action" name="stepper:" candidateClass="UIStepper"/>
-                <relationship kind="outlet" name="wert" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="buttonFeuerwehr:"/>
-                <relationship kind="action" name="buttonPolizei:"/>
-                <relationship kind="action" name="buttonRettung:"/>
-                <relationship kind="outlet" name="feuerwehr" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="polizei" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="rettung" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

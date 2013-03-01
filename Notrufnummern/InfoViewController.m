@@ -13,7 +13,7 @@
 @end
 
 @implementation InfoViewController
-@synthesize wert, stepValue;
+//@synthesize wert, stepValue;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,18 +28,18 @@
 {
     self.navigationController.title = @"Info";
     
-    [PayPal initializeWithAppID:@"APP-2LS95895RS6539937"
-                 forEnvironment:ENV_LIVE];
+  //  [PayPal initializeWithAppID:@"APP-2LS95895RS6539937"
+  //               forEnvironment:ENV_LIVE];
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    PayPal *p = [PayPal getPayPalInst];
-    p.lang = @"de_DE";
+ //  PayPal *p = [PayPal getPayPalInst];
+ //  p.lang = @"de_DE";
     
-    UIButton *paypal = [[PayPal getPayPalInst]getPayButtonWithTarget:self andAction:@selector(payWithPayPal) andButtonType:BUTTON_194x37 andButtonText:BUTTON_TEXT_DONATE];
-    paypal.frame = CGRectMake(63,315, 194, 37);
-    [self.view addSubview:paypal];
+ //   UIButton *paypal = [[PayPal getPayPalInst]getPayButtonWithTarget:self andAction:@selector(payWithPayPal) andButtonType:BUTTON_194x37 andButtonText:BUTTON_TEXT_DONATE];
+ //   paypal.frame = CGRectMake(63,315, 194, 37);
+ //   [self.view addSubview:paypal];
     
 }
 
@@ -121,7 +121,7 @@
     [self presentViewController:mc animated:YES completion:NULL];
 }
 
-- (IBAction)stepper:(UIStepper *)sender {
+/*- (IBAction)stepper:(UIStepper *)sender {
     float value = [sender value];
     wert.text = [NSString stringWithFormat:@"%.2f", (float)value];
     
@@ -142,6 +142,6 @@
     payment.merchantName =@"Notruf APP";
     
     [ppMEP checkoutWithPayment:payment];
-}
+}*/
 
 @end

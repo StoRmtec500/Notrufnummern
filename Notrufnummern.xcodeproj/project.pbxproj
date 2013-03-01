@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B829B87116E11EA500BCC2DD /* btn_donate_LG.gif in Resources */ = {isa = PBXBuildFile; fileRef = B829B87016E11EA500BCC2DD /* btn_donate_LG.gif */; };
+		B829B87516E11F1D00BCC2DD /* SpendenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B829B87416E11F1D00BCC2DD /* SpendenViewController.m */; };
 		B856D87016D1691F001354DA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B856D86F16D1691F001354DA /* MessageUI.framework */; };
 		B866478A168A6E8F00AE5DC4 /* main_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8664789168A6E8F00AE5DC4 /* main_icon.png */; };
 		B866478C168A6F2300AE5DC4 /* main_icon_ret.png in Resources */ = {isa = PBXBuildFile; fileRef = B866478B168A6F2300AE5DC4 /* main_icon_ret.png */; };
@@ -42,10 +44,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B829B87016E11EA500BCC2DD /* btn_donate_LG.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_donate_LG.gif; sourceTree = "<group>"; };
+		B829B87316E11F1D00BCC2DD /* SpendenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpendenViewController.h; sourceTree = "<group>"; };
+		B829B87416E11F1D00BCC2DD /* SpendenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpendenViewController.m; sourceTree = "<group>"; };
 		B856D86F16D1691F001354DA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		B8664789168A6E8F00AE5DC4 /* main_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_icon.png; sourceTree = "<group>"; };
 		B866478B168A6F2300AE5DC4 /* main_icon_ret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_icon_ret.png; sourceTree = "<group>"; };
-		B86CC71A168A21FB00949269 /* Notruf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notruf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86CC71A168A21FB00949269 /* Notruf AUT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notruf AUT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86CC71E168A21FB00949269 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B86CC720168A21FB00949269 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B86CC722168A21FB00949269 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -125,7 +130,7 @@
 		B86CC71B168A21FB00949269 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B86CC71A168A21FB00949269 /* Notruf.app */,
+				B86CC71A168A21FB00949269 /* Notruf AUT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +159,8 @@
 				B86CC725168A21FB00949269 /* Supporting Files */,
 				B8DD95CD16CED69C0078A6FC /* InfoViewController.h */,
 				B8DD95CE16CED69C0078A6FC /* InfoViewController.m */,
+				B829B87316E11F1D00BCC2DD /* SpendenViewController.h */,
+				B829B87416E11F1D00BCC2DD /* SpendenViewController.m */,
 			);
 			path = Notrufnummern;
 			sourceTree = "<group>";
@@ -174,6 +181,7 @@
 		B86CC741168A25C700949269 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B829B87016E11EA500BCC2DD /* btn_donate_LG.gif */,
 				B8835AFF16D152F000630F39 /* background@2x.png */,
 				B8E563E7168CBD4B00BBE9E7 /* hintergrund@2x.png */,
 				B8E563E5168CBD2500BBE9E7 /* btn_polizei@2x.png */,
@@ -230,7 +238,7 @@
 			);
 			name = Notrufnummern;
 			productName = Notrufnummern;
-			productReference = B86CC71A168A21FB00949269 /* Notruf.app */;
+			productReference = B86CC71A168A21FB00949269 /* Notruf AUT.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -284,6 +292,7 @@
 				B8E563E6168CBD2500BBE9E7 /* btn_polizei@2x.png in Resources */,
 				B8E563E8168CBD4B00BBE9E7 /* hintergrund@2x.png in Resources */,
 				B8835B0016D152F000630F39 /* background@2x.png in Resources */,
+				B829B87116E11EA500BCC2DD /* btn_donate_LG.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +307,7 @@
 				B86CC72F168A21FB00949269 /* AppDelegate.m in Sources */,
 				B86CC73B168A21FB00949269 /* ViewController.m in Sources */,
 				B8DD95CF16CED69C0078A6FC /* InfoViewController.m in Sources */,
+				B829B87516E11F1D00BCC2DD /* SpendenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +404,7 @@
 					"\"$(SRCROOT)/Notrufnummern\"",
 				);
 				New_Setting = "";
-				PRODUCT_NAME = Notruf;
+				PRODUCT_NAME = "Notruf AUT";
 				PROVISIONING_PROFILE = "AD5EE21D-B1C3-4210-8995-852E5D4EFF9A";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AD5EE21D-B1C3-4210-8995-852E5D4EFF9A";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -416,7 +426,7 @@
 					"\"$(SRCROOT)/Notrufnummern\"",
 				);
 				New_Setting = "";
-				PRODUCT_NAME = Notruf;
+				PRODUCT_NAME = "Notruf AUT";
 				PROVISIONING_PROFILE = "AD5EE21D-B1C3-4210-8995-852E5D4EFF9A";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1C3EE8AB-5C04-4E24-AC2B-005D6DAE107F";
 				TARGETED_DEVICE_FAMILY = 1;
