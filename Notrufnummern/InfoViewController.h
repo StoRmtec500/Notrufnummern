@@ -18,8 +18,10 @@
 #import "PayPalReceiverAmounts.h"
 #import "PayPalReceiverPaymentDetails.h"
 #import <MessageUI/MessageUI.h>
+#import "GAITrackedViewController.h"
 
-@interface InfoViewController : UIViewController <PayPalPaymentDelegate, MFMailComposeViewControllerDelegate>
+@interface InfoViewController : GAITrackedViewController <PayPalPaymentDelegate, MFMailComposeViewControllerDelegate>
+- (IBAction)btnSpenden:(id)sender;
 - (IBAction)appBewerten:(id)sender;
 - (IBAction)appWeiterempfehlen:(id)sender;
 - (IBAction)appFeedback:(id)sender;

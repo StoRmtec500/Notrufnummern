@@ -13,7 +13,9 @@
 @end
 
 @implementation InfoViewController
+
 //@synthesize wert, stepValue;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -40,6 +42,7 @@
  //   UIButton *paypal = [[PayPal getPayPalInst]getPayButtonWithTarget:self andAction:@selector(payWithPayPal) andButtonType:BUTTON_194x37 andButtonText:BUTTON_TEXT_DONATE];
  //   paypal.frame = CGRectMake(63,315, 194, 37);
  //   [self.view addSubview:paypal];
+    self.trackedViewName = @"Info View";
     
 }
 
@@ -67,6 +70,10 @@
 -(void)paymentSuccessWithKey:(NSString *)payKey andStatus:(PayPalPaymentStatus)paymentStatus
 {
     
+}
+
+- (IBAction)btnSpenden:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QGR6PTYFLAPKC"]];
 }
 
 - (IBAction)appBewerten:(id)sender

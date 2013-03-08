@@ -15,6 +15,11 @@
 #define rettungNummer @144
 
 @interface ViewController ()
+{
+    CLLocationManager *locationManager;
+    CLGeocoder *geocoder;
+    CLPlacemark *placemark;
+}
 
 
 @property (nonatomic, retain) IBOutlet UIButton *polizei;
@@ -24,6 +29,8 @@
 @end
 
 @implementation ViewController
+
+@synthesize addressLabel;
 
 - (void)viewDidLoad
 {
@@ -40,6 +47,14 @@
     
     UIImage *rettung= [UIImage imageNamed:@"btn_rettung.png"];
     [_rettung setBackgroundImage:rettung forState:UIControlStateNormal];
+    
+    self.trackedViewName = @"Main View";
+    
+    locationManager = [[CLLocationManager alloc]init];
+    geocoder = [[CLGeocoder alloc]init];
+    locationManager.delegate = self;
+    locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    [locationManager startUpdatingLocation];
 }
 
 - (void)didReceiveMemoryWarning
@@ -95,4 +110,34 @@
         NSLog(@"abgebrochen");
     }
 }
+
+#pragma mark - CLLocationManagerDelegate
+
+-(void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error
+{
+    NSLog(@"didFailWithError: %@",error);
+    UIAlertView *errorAlert = [[UIAlertView alloc]initWithTitle:@"Fehler" message:@"Kein GPS Empfang verfügbar!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [errorAlert show];
+}
+
+-(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
+{
+    NSLog(@"didUpdateToLocation: %@", locations);
+    CLLocation *currentLocation = [locations lastObject];
+        if (currentLocation != nil){
+        //    NSLog(@"Location: %.8f", currentLocation.coordinate.longitude);
+        }
+    [geocoder reverseGeocodeLocation:currentLocation completionHandler:^(NSArray *placemarks, NSError *error) {
+        NSLog(@"Found placemarks: %@, error: %@", placemarks, error);
+        if (error == nil && [placemarks count] > 0) {
+            placemark = [placemarks objectAtIndex:0];
+            addressLabel.text = [NSString stringWithFormat:@"%@ %@, %@ %@", placemark.postalCode, placemark.locality, placemark.thoroughfare, placemark.subThoroughfare];
+           // NSString *locationadress = [[placemark.addressDictionary valueForKey:@"FormatAddressLines"] componentsJoinedByString:@", "];
+           // NSLog(@"%@", locationadress);
+            
+           // addressLabel.text = locationadress;
+        }
+    }];
+        
+    }
 @end

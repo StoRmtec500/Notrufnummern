@@ -25,6 +25,11 @@
 		B86CC744168A25C700949269 /* polizei_logo_groß.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86CC742168A25C700949269 /* polizei_logo_groß.jpg */; };
 		B86CC745168A25C700949269 /* polizei_lokal.png in Resources */ = {isa = PBXBuildFile; fileRef = B86CC743168A25C700949269 /* polizei_lokal.png */; };
 		B8835B0016D152F000630F39 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8835AFF16D152F000630F39 /* background@2x.png */; };
+		B8931F0E16E9368C00EDE963 /* libGoogleAnalytics_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8931F0C16E9368C00EDE963 /* libGoogleAnalytics_debug.a */; };
+		B8931F0F16E9368C00EDE963 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8931F0D16E9368C00EDE963 /* libGoogleAnalytics.a */; };
+		B8931F1216E936BE00EDE963 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8931F1116E936BE00EDE963 /* CoreData.framework */; };
+		B8931F1416E936C500EDE963 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8931F1316E936C500EDE963 /* SystemConfiguration.framework */; };
+		B8931F1716EA478B00EDE963 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8931F1616EA478B00EDE963 /* CoreLocation.framework */; };
 		B8A28C32168B8A2200AD80E3 /* main_headline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A28C31168B8A2200AD80E3 /* main_headline@2x.png */; };
 		B8A28C34168B8A6F00AD80E3 /* main_headline.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A28C33168B8A6F00AD80E3 /* main_headline.png */; };
 		B8A28C36168B8FBF00AD80E3 /* hintergrund.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A28C35168B8FBF00AD80E3 /* hintergrund.png */; };
@@ -68,6 +73,16 @@
 		B86CC742168A25C700949269 /* polizei_logo_groß.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "polizei_logo_groß.jpg"; sourceTree = "<group>"; };
 		B86CC743168A25C700949269 /* polizei_lokal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = polizei_lokal.png; sourceTree = "<group>"; };
 		B8835AFF16D152F000630F39 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		B8931F0716E9368C00EDE963 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = ../GAI.h; sourceTree = "<group>"; };
+		B8931F0816E9368C00EDE963 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = ../GAITrackedViewController.h; sourceTree = "<group>"; };
+		B8931F0916E9368C00EDE963 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = ../GAITracker.h; sourceTree = "<group>"; };
+		B8931F0A16E9368C00EDE963 /* GAITransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITransaction.h; path = ../GAITransaction.h; sourceTree = "<group>"; };
+		B8931F0B16E9368C00EDE963 /* GAITransactionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITransactionItem.h; path = ../GAITransactionItem.h; sourceTree = "<group>"; };
+		B8931F0C16E9368C00EDE963 /* libGoogleAnalytics_debug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics_debug.a; path = ../libGoogleAnalytics_debug.a; sourceTree = "<group>"; };
+		B8931F0D16E9368C00EDE963 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = ../libGoogleAnalytics.a; sourceTree = "<group>"; };
+		B8931F1116E936BE00EDE963 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B8931F1316E936C500EDE963 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B8931F1616EA478B00EDE963 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		B8A28C31168B8A2200AD80E3 /* main_headline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_headline@2x.png"; sourceTree = "<group>"; };
 		B8A28C33168B8A6F00AD80E3 /* main_headline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_headline.png; sourceTree = "<group>"; };
 		B8A28C35168B8FBF00AD80E3 /* hintergrund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hintergrund.png; sourceTree = "<group>"; };
@@ -102,6 +117,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8931F1716EA478B00EDE963 /* CoreLocation.framework in Frameworks */,
+				B8931F1416E936C500EDE963 /* SystemConfiguration.framework in Frameworks */,
+				B8931F1216E936BE00EDE963 /* CoreData.framework in Frameworks */,
 				B856D87016D1691F001354DA /* MessageUI.framework in Frameworks */,
 				B8DD95E316CEDBEB0078A6FC /* libz.1.dylib in Frameworks */,
 				B8DD95E116CEDBD80078A6FC /* Security.framework in Frameworks */,
@@ -110,6 +128,8 @@
 				B86CC721168A21FB00949269 /* Foundation.framework in Frameworks */,
 				B86CC723168A21FB00949269 /* CoreGraphics.framework in Frameworks */,
 				B8DD95DD16CEDB400078A6FC /* libPayPalMPL.a in Frameworks */,
+				B8931F0E16E9368C00EDE963 /* libGoogleAnalytics_debug.a in Frameworks */,
+				B8931F0F16E9368C00EDE963 /* libGoogleAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +158,9 @@
 		B86CC71D168A21FB00949269 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B8931F1616EA478B00EDE963 /* CoreLocation.framework */,
+				B8931F1316E936C500EDE963 /* SystemConfiguration.framework */,
+				B8931F1116E936BE00EDE963 /* CoreData.framework */,
 				B856D86F16D1691F001354DA /* MessageUI.framework */,
 				B86CC71E168A21FB00949269 /* UIKit.framework */,
 				B86CC720168A21FB00949269 /* Foundation.framework */,
@@ -149,6 +172,7 @@
 		B86CC724168A21FB00949269 /* Notrufnummern */ = {
 			isa = PBXGroup;
 			children = (
+				B8931F1516EA42F700EDE963 /* Analytcis */,
 				B8DD95D116CEDB260078A6FC /* PayPal */,
 				B86CC741168A25C700949269 /* Resources */,
 				B86CC72D168A21FB00949269 /* AppDelegate.h */,
@@ -198,6 +222,20 @@
 				B86CC743168A25C700949269 /* polizei_lokal.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B8931F1516EA42F700EDE963 /* Analytcis */ = {
+			isa = PBXGroup;
+			children = (
+				B8931F0716E9368C00EDE963 /* GAI.h */,
+				B8931F0816E9368C00EDE963 /* GAITrackedViewController.h */,
+				B8931F0916E9368C00EDE963 /* GAITracker.h */,
+				B8931F0A16E9368C00EDE963 /* GAITransaction.h */,
+				B8931F0B16E9368C00EDE963 /* GAITransactionItem.h */,
+				B8931F0C16E9368C00EDE963 /* libGoogleAnalytics_debug.a */,
+				B8931F0D16E9368C00EDE963 /* libGoogleAnalytics.a */,
+			);
+			name = Analytcis;
 			sourceTree = "<group>";
 		};
 		B8DD95D116CEDB260078A6FC /* PayPal */ = {
@@ -402,6 +440,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Notrufnummern\"",
+					"\"$(SRCROOT)\"",
 				);
 				New_Setting = "";
 				PRODUCT_NAME = "Notruf AUT";
@@ -424,6 +463,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Notrufnummern\"",
+					"\"$(SRCROOT)\"",
 				);
 				New_Setting = "";
 				PRODUCT_NAME = "Notruf AUT";

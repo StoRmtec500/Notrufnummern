@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GAITrackedViewController.h"
+#import <CoreLocation/CoreLocation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : GAITrackedViewController <CLLocationManagerDelegate>
 
 
 - (IBAction)buttonPolizei:(id)sender;
 - (IBAction)buttonFeuerwehr:(id)sender;
 - (IBAction)buttonRettung:(id)sender;
+@property (strong, nonatomic) IBOutlet UILabel *addressLabel;
 @end

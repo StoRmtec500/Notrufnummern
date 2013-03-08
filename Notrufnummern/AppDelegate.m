@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GAI.h"
 
 
 @implementation AppDelegate
@@ -14,6 +15,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [self customizeApperance];
+    // Optional: automatically send uncaught exceptions to Google Analytics.
+    [GAI sharedInstance].trackUncaughtExceptions = YES;
+    // Optional: set Google Analytics dispatch interval to e.g. 20 seconds.
+    [GAI sharedInstance].dispatchInterval = 5;
+    // Optional: set debug to YES for extra debugging information.
+    [GAI sharedInstance].debug = NO;
+    // Create tracker instance.
+    [[GAI sharedInstance] trackerWithTrackingId:@"UA-38850262-1"];
     // Override point for customization after application launch.
     return YES;
 }
