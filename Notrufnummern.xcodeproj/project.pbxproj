@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B801A63817FD6451008B34DC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B801A63717FD6451008B34DC /* iAd.framework */; };
+		B801A63E17FD832C008B34DC /* Storyboard7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B801A63D17FD832C008B34DC /* Storyboard7.storyboard */; };
 		B829B87116E11EA500BCC2DD /* btn_donate_LG.gif in Resources */ = {isa = PBXBuildFile; fileRef = B829B87016E11EA500BCC2DD /* btn_donate_LG.gif */; };
 		B829B87516E11F1D00BCC2DD /* SpendenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B829B87416E11F1D00BCC2DD /* SpendenViewController.m */; };
 		B856D87016D1691F001354DA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B856D86F16D1691F001354DA /* MessageUI.framework */; };
@@ -49,6 +51,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B801A63717FD6451008B34DC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B801A63D17FD832C008B34DC /* Storyboard7.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard7.storyboard; sourceTree = "<group>"; };
 		B829B87016E11EA500BCC2DD /* btn_donate_LG.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_donate_LG.gif; sourceTree = "<group>"; };
 		B829B87316E11F1D00BCC2DD /* SpendenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpendenViewController.h; sourceTree = "<group>"; };
 		B829B87416E11F1D00BCC2DD /* SpendenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpendenViewController.m; sourceTree = "<group>"; };
@@ -117,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B801A63817FD6451008B34DC /* iAd.framework in Frameworks */,
 				B8931F1716EA478B00EDE963 /* CoreLocation.framework in Frameworks */,
 				B8931F1416E936C500EDE963 /* SystemConfiguration.framework in Frameworks */,
 				B8931F1216E936BE00EDE963 /* CoreData.framework in Frameworks */,
@@ -158,6 +163,7 @@
 		B86CC71D168A21FB00949269 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B801A63717FD6451008B34DC /* iAd.framework */,
 				B8931F1616EA478B00EDE963 /* CoreLocation.framework */,
 				B8931F1316E936C500EDE963 /* SystemConfiguration.framework */,
 				B8931F1116E936BE00EDE963 /* CoreData.framework */,
@@ -177,6 +183,7 @@
 				B86CC741168A25C700949269 /* Resources */,
 				B86CC72D168A21FB00949269 /* AppDelegate.h */,
 				B86CC72E168A21FB00949269 /* AppDelegate.m */,
+				B801A63D17FD832C008B34DC /* Storyboard7.storyboard */,
 				B86CC736168A21FB00949269 /* MainStoryboard.storyboard */,
 				B86CC739168A21FB00949269 /* ViewController.h */,
 				B86CC73A168A21FB00949269 /* ViewController.m */,
@@ -287,6 +294,16 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Martin Kuenz";
+				TargetAttributes = {
+					B86CC719168A21FB00949269 = {
+						DevelopmentTeam = RKDQPG2MBM;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = B86CC714168A21FA00949269 /* Build configuration list for PBXProject "Notrufnummern" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -331,6 +348,7 @@
 				B8E563E8168CBD4B00BBE9E7 /* hintergrund@2x.png in Resources */,
 				B8835B0016D152F000630F39 /* background@2x.png in Resources */,
 				B829B87116E11EA500BCC2DD /* btn_donate_LG.gif in Resources */,
+				B801A63E17FD832C008B34DC /* Storyboard7.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,8 +449,8 @@
 		B86CC73F168A21FB00949269 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Martin Kuenz (994AZ7AHKS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Martin Kuenz (994AZ7AHKS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Notrufnummern/Notrufnummern-Prefix.pch";
 				INFOPLIST_FILE = "Notrufnummern/Notrufnummern-Info.plist";
@@ -444,8 +462,8 @@
 				);
 				New_Setting = "";
 				PRODUCT_NAME = "Notruf AUT";
-				PROVISIONING_PROFILE = "AD5EE21D-B1C3-4210-8995-852E5D4EFF9A";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AD5EE21D-B1C3-4210-8995-852E5D4EFF9A";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ACAAB59D-F7D1-4897-A0A1-3BE07942B02B";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -454,8 +472,8 @@
 		B86CC740168A21FB00949269 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Martin Kuenz (994AZ7AHKS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Martin Kuenz";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Notrufnummern/Notrufnummern-Prefix.pch";
 				INFOPLIST_FILE = "Notrufnummern/Notrufnummern-Info.plist";
@@ -467,8 +485,8 @@
 				);
 				New_Setting = "";
 				PRODUCT_NAME = "Notruf AUT";
-				PROVISIONING_PROFILE = "AD5EE21D-B1C3-4210-8995-852E5D4EFF9A";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1C3EE8AB-5C04-4E24-AC2B-005D6DAE107F";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7D9F4B9A-7E45-4037-8A0E-83534C896067";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

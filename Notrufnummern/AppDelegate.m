@@ -14,6 +14,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    UIStoryboard *storyboard;
+    if(floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1) {
+        storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    }else {
+        storyboard = [UIStoryboard storyboardWithName:@"Storyboard7" bundle:nil];
+    }
+    self.window.rootViewController = [storyboard instantiateInitialViewController];
+    [self.window makeKeyAndVisible];
     [self customizeApperance];
     // Optional: automatically send uncaught exceptions to Google Analytics.
     [GAI sharedInstance].trackUncaughtExceptions = YES;
@@ -25,6 +33,7 @@
     [[GAI sharedInstance] trackerWithTrackingId:@"UA-38850262-1"];
     // Override point for customization after application launch.
     return YES;
+    
 }
 
 -(void)customizeApperance
