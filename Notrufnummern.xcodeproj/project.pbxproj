@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B801A63817FD6451008B34DC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B801A63717FD6451008B34DC /* iAd.framework */; };
-		B801A63E17FD832C008B34DC /* Storyboard7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B801A63D17FD832C008B34DC /* Storyboard7.storyboard */; };
+		B801A63E17FD832C008B34DC /* Storyboard5_6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B801A63D17FD832C008B34DC /* Storyboard5_6.storyboard */; };
 		B829B87116E11EA500BCC2DD /* btn_donate_LG.gif in Resources */ = {isa = PBXBuildFile; fileRef = B829B87016E11EA500BCC2DD /* btn_donate_LG.gif */; };
 		B829B87516E11F1D00BCC2DD /* SpendenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B829B87416E11F1D00BCC2DD /* SpendenViewController.m */; };
 		B856D87016D1691F001354DA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B856D86F16D1691F001354DA /* MessageUI.framework */; };
@@ -22,7 +22,7 @@
 		B86CC72F168A21FB00949269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B86CC72E168A21FB00949269 /* AppDelegate.m */; };
 		B86CC731168A21FB00949269 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B86CC730168A21FB00949269 /* Default.png */; };
 		B86CC733168A21FB00949269 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B86CC732168A21FB00949269 /* Default@2x.png */; };
-		B86CC738168A21FB00949269 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86CC736168A21FB00949269 /* MainStoryboard.storyboard */; };
+		B86CC738168A21FB00949269 /* MainStoryboard4_6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86CC736168A21FB00949269 /* MainStoryboard4_6.storyboard */; };
 		B86CC73B168A21FB00949269 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B86CC73A168A21FB00949269 /* ViewController.m */; };
 		B86CC744168A25C700949269 /* polizei_logo_groß.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86CC742168A25C700949269 /* polizei_logo_groß.jpg */; };
 		B86CC745168A25C700949269 /* polizei_lokal.png in Resources */ = {isa = PBXBuildFile; fileRef = B86CC743168A25C700949269 /* polizei_lokal.png */; };
@@ -37,8 +37,11 @@
 		B8A28C36168B8FBF00AD80E3 /* hintergrund.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A28C35168B8FBF00AD80E3 /* hintergrund.png */; };
 		B8A28C38168B991100AD80E3 /* btn_polizei.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A28C37168B991100AD80E3 /* btn_polizei.png */; };
 		B8A28C3A168BA3ED00AD80E3 /* btn_feuerwehr.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A28C39168BA3ED00AD80E3 /* btn_feuerwehr.png */; };
+		B8A4AE5B17FF1F6400699D43 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A4AE5A17FF1F6400699D43 /* Default-568h@2x.png */; };
+		B8A4AE5D17FF24E000699D43 /* Storyboard5_7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A4AE5C17FF24E000699D43 /* Storyboard5_7.storyboard */; };
+		B8A4AE5F17FF265500699D43 /* MainStoryboard4_7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A4AE5E17FF265500699D43 /* MainStoryboard4_7.storyboard */; };
+		B8A4AE6217FF553700699D43 /* main_icon_ret face_5.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A4AE6117FF553700699D43 /* main_icon_ret face_5.png */; };
 		B8DD95CF16CED69C0078A6FC /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DD95CE16CED69C0078A6FC /* InfoViewController.m */; };
-		B8DD95DD16CEDB400078A6FC /* libPayPalMPL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DD95D216CEDB400078A6FC /* libPayPalMPL.a */; };
 		B8DD95DF16CEDBD00078A6FC /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DD95DE16CEDBD00078A6FC /* libxml2.dylib */; };
 		B8DD95E116CEDBD80078A6FC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DD95E016CEDBD80078A6FC /* Security.framework */; };
 		B8DD95E316CEDBEB0078A6FC /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DD95E216CEDBEB0078A6FC /* libz.1.dylib */; };
@@ -52,7 +55,7 @@
 
 /* Begin PBXFileReference section */
 		B801A63717FD6451008B34DC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		B801A63D17FD832C008B34DC /* Storyboard7.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard7.storyboard; sourceTree = "<group>"; };
+		B801A63D17FD832C008B34DC /* Storyboard5_6.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard5_6.storyboard; sourceTree = "<group>"; };
 		B829B87016E11EA500BCC2DD /* btn_donate_LG.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_donate_LG.gif; sourceTree = "<group>"; };
 		B829B87316E11F1D00BCC2DD /* SpendenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpendenViewController.h; sourceTree = "<group>"; };
 		B829B87416E11F1D00BCC2DD /* SpendenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpendenViewController.m; sourceTree = "<group>"; };
@@ -71,7 +74,7 @@
 		B86CC72E168A21FB00949269 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B86CC730168A21FB00949269 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B86CC732168A21FB00949269 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		B86CC737168A21FB00949269 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B86CC737168A21FB00949269 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard4_6.storyboard; sourceTree = "<group>"; };
 		B86CC739168A21FB00949269 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B86CC73A168A21FB00949269 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		B86CC742168A25C700949269 /* polizei_logo_groß.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "polizei_logo_groß.jpg"; sourceTree = "<group>"; };
@@ -92,6 +95,10 @@
 		B8A28C35168B8FBF00AD80E3 /* hintergrund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hintergrund.png; sourceTree = "<group>"; };
 		B8A28C37168B991100AD80E3 /* btn_polizei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_polizei.png; sourceTree = "<group>"; };
 		B8A28C39168BA3ED00AD80E3 /* btn_feuerwehr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_feuerwehr.png; sourceTree = "<group>"; };
+		B8A4AE5A17FF1F6400699D43 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B8A4AE5C17FF24E000699D43 /* Storyboard5_7.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard5_7.storyboard; sourceTree = "<group>"; };
+		B8A4AE5E17FF265500699D43 /* MainStoryboard4_7.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard4_7.storyboard; sourceTree = "<group>"; };
+		B8A4AE6117FF553700699D43 /* main_icon_ret face_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_icon_ret face_5.png"; sourceTree = "<group>"; };
 		B8DD95CD16CED69C0078A6FC /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		B8DD95CE16CED69C0078A6FC /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		B8DD95D216CEDB400078A6FC /* libPayPalMPL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMPL.a; sourceTree = "<group>"; };
@@ -132,7 +139,6 @@
 				B86CC71F168A21FB00949269 /* UIKit.framework in Frameworks */,
 				B86CC721168A21FB00949269 /* Foundation.framework in Frameworks */,
 				B86CC723168A21FB00949269 /* CoreGraphics.framework in Frameworks */,
-				B8DD95DD16CEDB400078A6FC /* libPayPalMPL.a in Frameworks */,
 				B8931F0E16E9368C00EDE963 /* libGoogleAnalytics_debug.a in Frameworks */,
 				B8931F0F16E9368C00EDE963 /* libGoogleAnalytics.a in Frameworks */,
 			);
@@ -144,6 +150,8 @@
 		B86CC70F168A21FA00949269 = {
 			isa = PBXGroup;
 			children = (
+				B8A4AE6117FF553700699D43 /* main_icon_ret face_5.png */,
+				B8A4AE5A17FF1F6400699D43 /* Default-568h@2x.png */,
 				B866478B168A6F2300AE5DC4 /* main_icon_ret.png */,
 				B8664789168A6E8F00AE5DC4 /* main_icon.png */,
 				B86CC724168A21FB00949269 /* Notrufnummern */,
@@ -183,8 +191,10 @@
 				B86CC741168A25C700949269 /* Resources */,
 				B86CC72D168A21FB00949269 /* AppDelegate.h */,
 				B86CC72E168A21FB00949269 /* AppDelegate.m */,
-				B801A63D17FD832C008B34DC /* Storyboard7.storyboard */,
-				B86CC736168A21FB00949269 /* MainStoryboard.storyboard */,
+				B801A63D17FD832C008B34DC /* Storyboard5_6.storyboard */,
+				B8A4AE5C17FF24E000699D43 /* Storyboard5_7.storyboard */,
+				B86CC736168A21FB00949269 /* MainStoryboard4_6.storyboard */,
+				B8A4AE5E17FF265500699D43 /* MainStoryboard4_7.storyboard */,
 				B86CC739168A21FB00949269 /* ViewController.h */,
 				B86CC73A168A21FB00949269 /* ViewController.m */,
 				B86CC725168A21FB00949269 /* Supporting Files */,
@@ -330,7 +340,7 @@
 				B86CC729168A21FB00949269 /* InfoPlist.strings in Resources */,
 				B86CC731168A21FB00949269 /* Default.png in Resources */,
 				B86CC733168A21FB00949269 /* Default@2x.png in Resources */,
-				B86CC738168A21FB00949269 /* MainStoryboard.storyboard in Resources */,
+				B86CC738168A21FB00949269 /* MainStoryboard4_6.storyboard in Resources */,
 				B86CC744168A25C700949269 /* polizei_logo_groß.jpg in Resources */,
 				B86CC745168A25C700949269 /* polizei_lokal.png in Resources */,
 				B866478A168A6E8F00AE5DC4 /* main_icon.png in Resources */,
@@ -341,14 +351,18 @@
 				B8A28C36168B8FBF00AD80E3 /* hintergrund.png in Resources */,
 				B8A28C38168B991100AD80E3 /* btn_polizei.png in Resources */,
 				B8A28C3A168BA3ED00AD80E3 /* btn_feuerwehr.png in Resources */,
+				B8A4AE5F17FF265500699D43 /* MainStoryboard4_7.storyboard in Resources */,
+				B8A4AE6217FF553700699D43 /* main_icon_ret face_5.png in Resources */,
 				B8E563E0168CBBF200BBE9E7 /* btn_rettung.png in Resources */,
 				B8E563E2168CBCB700BBE9E7 /* btn_rettung@2x.png in Resources */,
 				B8E563E4168CBD0200BBE9E7 /* btn_feuerwehr@2x.png in Resources */,
+				B8A4AE5B17FF1F6400699D43 /* Default-568h@2x.png in Resources */,
 				B8E563E6168CBD2500BBE9E7 /* btn_polizei@2x.png in Resources */,
 				B8E563E8168CBD4B00BBE9E7 /* hintergrund@2x.png in Resources */,
 				B8835B0016D152F000630F39 /* background@2x.png in Resources */,
+				B8A4AE5D17FF24E000699D43 /* Storyboard5_7.storyboard in Resources */,
 				B829B87116E11EA500BCC2DD /* btn_donate_LG.gif in Resources */,
-				B801A63E17FD832C008B34DC /* Storyboard7.storyboard in Resources */,
+				B801A63E17FD832C008B34DC /* Storyboard5_6.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,12 +392,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		B86CC736168A21FB00949269 /* MainStoryboard.storyboard */ = {
+		B86CC736168A21FB00949269 /* MainStoryboard4_6.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B86CC737168A21FB00949269 /* en */,
 			);
-			name = MainStoryboard.storyboard;
+			name = MainStoryboard4_6.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -450,7 +464,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Notrufnummern/Notrufnummern-Prefix.pch";
 				INFOPLIST_FILE = "Notrufnummern/Notrufnummern-Info.plist";
@@ -463,7 +477,7 @@
 				New_Setting = "";
 				PRODUCT_NAME = "Notruf AUT";
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ACAAB59D-F7D1-4897-A0A1-3BE07942B02B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7D9F4B9A-7E45-4037-8A0E-83534C896067";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -473,7 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Notrufnummern/Notrufnummern-Prefix.pch";
 				INFOPLIST_FILE = "Notrufnummern/Notrufnummern-Info.plist";
@@ -485,7 +499,7 @@
 				);
 				New_Setting = "";
 				PRODUCT_NAME = "Notruf AUT";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "7D9F4B9A-7E45-4037-8A0E-83534C896067";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7D9F4B9A-7E45-4037-8A0E-83534C896067";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
